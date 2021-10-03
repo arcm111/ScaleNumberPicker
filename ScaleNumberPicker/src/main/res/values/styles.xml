@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ScaleNumberPicker">
+        <item name="snp_orientation">Horizontal</item>
+        <item name="snp_curve_height">40dp</item>
+
+        <item name="snp_unit_label_text_size">18sp</item>
+        <item name="snp_unit_label_text_colour">#000000</item>
+        <item name="snp_unit_label_margin">2dp</item>
+
+        <item name="snp_value">50</item>
+        <item name="snp_min_value">0</item>
+        <item name="snp_max_value">100</item>
+        <item name="snp_value_text_size">18sp</item>
+        <item name="snp_value_text_margin">8dp</item>
+        <item name="snp_value_text_colour">#000000</item>
+
+        <item name="snp_tick_value">1</item>
+        <item name="snp_ticks_count_per_subdivision">2</item>
+
+        <item name="snp_division_text_size">12sp</item>
+        <item name="snp_division_line_width">2dp</item>
+        <item name="snp_division_line_height">16dp</item>
+        <item name="snp_division_text_margin">12dp</item>
+        <item name="snp_division_text_colour">#000000</item>
+        <item name="snp_division_line_in_range_colour">#000000</item>
+        <item name="snp_division_line_out_of_range_colour">#BBBBBB</item>
+
+        <item name="snp_subdivision_width">10dp</item>
+        <item name="snp_subdivisions_count_per_division">5</item>
+        <item name="snp_subdivision_line_width">1dp</item>
+        <item name="snp_subdivision_line_height">10dp</item>
+        <item name="snp_subdivision_line_in_range_colour">#000000</item>
+        <item name="snp_subdivision_line_out_of_range_colour">#BBBBBB</item>
+
+        <item name="snp_show_indicator_needle">true</item>
+        <item name="snp_indicator_triangle_width">8dp</item>
+        <item name="snp_indicator_offset">2dp</item>
+        <item name="snp_indicator_colour">#FF0000</item>
+
+        <item name="snp_border_width">2dp</item>
+        <item name="snp_border_colour">#000000</item>
+    </style>
+</resources>

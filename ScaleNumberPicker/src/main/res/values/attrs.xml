@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScaleNumberPicker">
+
+        <!-- Orientation of the scale -->
+        <attr name="snp_orientation">
+            <enum name="Horizontal" value="0"/>
+            <enum name="VerticalLeft" value="1"/>
+            <enum name="VerticalRight" value="2"/>
+            <enum name="HorizontalCircular" value="3"/>
+        </attr>
+        <!-- The curve height of horizontal-circular scale type if already selected -->
+        <attr name="snp_curve_height" format="dimension" />
+
+
+        <!-- Unit label text to be displayed under the scale's selected value -->
+        <attr name="snp_unit_label" format="string" />
+        <!-- Margin between scale's value and its unit label -->
+        <attr name="snp_unit_label_margin" format="dimension" />
+        <!-- Text size of the unit label -->
+        <attr name="snp_unit_label_text_size" format="dimension" />
+        <!-- Colour of the unit label text -->
+        <attr name="snp_unit_label_text_colour" format="color" />
+
+
+        <!-- Scale's currently selected value -->
+        <attr name="snp_value" format="float" />
+        <!-- Minimum value in the scale -->
+        <attr name="snp_min_value" format="float" />
+        <!-- Maximum value in the scale -->
+        <attr name="snp_max_value" format="float" />
+        <!-- Text size of the scale's selected value -->
+        <attr name="snp_value_text_size" format="dimension" />
+        <!-- Colour of scale's selected value -->
+        <attr name="snp_value_text_colour" format="color" />
+        <!-- Margin between Scale's selected value and indicator -->
+        <attr name="snp_value_text_margin" format="dimension" />
+
+
+        <!-- Value of a single tick within a subdivision -->
+        <attr name="snp_tick_value" format="float" />
+        <!-- Number of ticks in each subdivision -->
+        <attr name="snp_ticks_count_per_subdivision" format="integer" />
+
+
+        <!-- Width of each division line -->
+        <attr name="snp_division_line_width" format="dimension" />
+        <!-- Height of each division line -->
+        <attr name="snp_division_line_height" format="dimension" />
+        <!-- Text size of values located under each division line -->
+        <attr name="snp_division_text_size" format="dimension" />
+        <!-- Colour of values located under each division line -->
+        <attr name="snp_division_text_colour" format="color" />
+        <!-- Margin between division lines and division values -->
+        <attr name="snp_division_text_margin" format="dimension" />
+        <!-- Colour of in-range division lines -->
+        <attr name="snp_division_line_in_range_colour" format="color" />
+        <!-- Colour of out-of-range division lines -->
+        <attr name="snp_division_line_out_of_range_colour" format="color" />
+
+
+        <!-- Width of each subdivision -->
+        <attr name="snp_subdivision_width" format="dimension" />
+        <!-- Width of each subdivision line -->
+        <attr name="snp_subdivision_line_width" format="dimension" />
+        <!-- Height of each subdivision line -->
+        <attr name="snp_subdivision_line_height" format="dimension" />
+        <!-- Number of subdivisions in each division -->
+        <attr name="snp_subdivisions_count_per_division" format="integer" />
+        <!-- Colour of in-range subdivision lines -->
+        <attr name="snp_subdivision_line_in_range_colour" format="color" />
+        <!-- Colour of out-of-range subdivision lines -->
+        <attr name="snp_subdivision_line_out_of_range_colour" format="color" />
+
+
+        <!-- Width of the indicator's needle -->
+        <attr name="snp_indicator_triangle_width" format="dimension" />
+        <!-- Distance between the indicator's triangle and the border -->
+        <attr name="snp_indicator_offset" format="dimension" />
+        <!-- Colour of the indicator -->
+        <attr name="snp_indicator_colour" format="color" />
+        <!-- Show or hide the indicator's needle -->
+        <attr name="snp_show_indicator_needle" format="boolean" />
+
+
+        <!-- Line width of the scale's border -->
+        <attr name="snp_border_width" format="dimension" />
+        <!-- Colour of the scale's border -->
+        <attr name="snp_border_colour" format="color" />
+
+    </declare-styleable>
+</resources>
