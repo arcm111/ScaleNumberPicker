@@ -12,6 +12,10 @@ The library is a custom number-picker for Android.
   </br>
 </kbd>
 
+## Labels
+List of labels of the different elements in the ScaleNumberPicker.
+<img src="imgs/15Artboard 1.svg" />
+
 ## Attributes
 Attribute Name | Description | Default Value
 | --- | --- | --- |
