@@ -6,13 +6,73 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="#EEEEEE"
+        android:elevation="3dp"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="12dp"
+            app:srcCompat="@drawable/ic_scale_horizontal" />
+
+        <ImageView
+            android:id="@+id/vertical_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="12dp"
+            app:srcCompat="@drawable/ic_scale_vertical_right" />
+
+        <ImageView
+            android:id="@+id/vertical_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="12dp"
+            app:srcCompat="@drawable/ic_scale_vertical_left" />
+
+        <ImageView
+            android:id="@+id/horizontal_circular"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="12dp"
+            app:srcCompat="@drawable/ic_scale_horizontal_circular" />
+
+    </LinearLayout>
+
+    <com.arcm.scalenumberpicker.ScaleNumberPicker
+        android:id="@+id/scaleNumberPicker"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:snp_curve_height="72dp"
+        app:snp_division_line_height="14dp"
+        app:snp_division_text_margin="16dp"
+        app:snp_indicator_offset="4dp"
+        app:snp_indicator_triangle_width="10dp"
+        app:snp_subdivision_line_height="10dp"
+        app:snp_subdivisions_count_per_division="10"
+        app:snp_tick_value="1"
+        app:snp_ticks_count_per_subdivision="1"
+        app:snp_unit_label_text_size="16sp"
+        app:snp_value_text_margin="10dp"
+        app:snp_value_text_size="20sp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

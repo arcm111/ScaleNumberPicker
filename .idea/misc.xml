@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_scale_horizontal.xml" value="0.2898148148148148" />
+        <entry key="app/src/main/res/drawable/ic_scale_horizontal_circular.xml" value="0.2898148148148148" />
+        <entry key="app/src/main/res/drawable/ic_scale_vertical_left.xml" value="0.2898148148148148" />
+        <entry key="app/src/main/res/drawable/ic_scale_vertical_right.xml" value="0.2898148148148148" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3453125" />
       </map>
     </option>
