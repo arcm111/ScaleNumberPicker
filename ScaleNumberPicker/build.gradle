@@ -10,8 +10,6 @@ android {
         minSdk 21
         targetSdk 30
 
-        multiDexEnabled true
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }
@@ -46,7 +44,7 @@ afterEvaluate {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.arcm.ScaleNumberPicker'
+                groupId = 'com.arcm.scalenumberpicker'
                 artifactId = 'final'
                 version = '1.0'
             }
@@ -55,7 +53,7 @@ afterEvaluate {
                 // Applies the component for the debug build variant.
                 from components.debug
 
-                groupId = 'com.arcm.ScaleNumberPicker'
+                groupId = 'com.arcm.scalenumberpicker'
                 artifactId = 'final-debug'
                 version = '1.0'
             }

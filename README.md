@@ -76,7 +76,7 @@ float value = snp.setValue(myFloatValue);
 ```
 ### XML
 ```xml
-<com.arcm.scalenumberpicker.ScaleNumberPicker
+<com.arcm.demo.ScaleNumberPicker
     android:id="@+id/scaleNumberPicker"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

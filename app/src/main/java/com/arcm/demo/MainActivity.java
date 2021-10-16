@@ -1,4 +1,4 @@
-package com.arcm.scalenumberpicker;
+package com.arcm.demo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-import com.arcm.scalenumberpicker.databinding.ActivityMainBinding;
+import com.arcm.demo.databinding.ActivityMainBinding;
+import com.arcm.scalenumberpicker.ScaleNumberPicker;
 
 public class MainActivity extends AppCompatActivity {
     public static final String TAG = "MainActivity";

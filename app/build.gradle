@@ -6,7 +6,7 @@ android {
     compileSdk 30
 
     defaultConfig {
-        applicationId "com.arcm.scalenumberpicker"
+        applicationId "com.arcm.demo"
         minSdk 21
         targetSdk 30
         versionCode 1

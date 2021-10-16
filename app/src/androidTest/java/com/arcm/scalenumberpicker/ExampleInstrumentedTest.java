@@ -1,4 +1,4 @@
-package com.arcm.scalenumberpicker;
+package com.arcm.demo;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.arcm.scalenumberpicker", appContext.getPackageName());
+        assertEquals("com.arcm.demo", appContext.getPackageName());
     }
 }

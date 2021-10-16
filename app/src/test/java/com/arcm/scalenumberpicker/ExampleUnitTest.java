@@ -1,4 +1,4 @@
-package com.arcm.scalenumberpicker;
+package com.arcm.demo;
 
 import org.junit.Test;
 
