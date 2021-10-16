@@ -5,6 +5,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
 rootProject.name = "ScaleNumberPickerExample"
 include ':app'
 include ':ScaleNumberPicker'
