@@ -35,6 +35,46 @@ List of labels of the different elements in the ScaleNumberPicker.
 * By default each division has 5 subdivisions and each subdivision has two ticks, these can be changed in the xml attributes however.
 * To change the distace between subdivisions, the property `snp_subdivision_width` need to be adjusted.
 
+## Usage
+### Gradle
+1. Add it in your root build.gradle at the end of repositories:
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+2. Add the dependency:
+```groovy
+dependencies {
+    implementation 'com.github.arcm111:ScaleNumberPicker:1.0.0'
+}
+```
+### Java
+1. Set `ScaleNumberPicker.OnValueChangedListener` to listen to value changes:
+```java
+ScaleNumberPicker snp = findElementById("my-scale-numberpicker-id")
+snp.setOnValueChangedListener(new ScaleNumberPicker.OnValueChangedListener(float oldValue, float newValue) {
+    // Do something with the new value.
+    ...
+});
+```
+
+2. Get value programmatically:
+```java
+ScaleNumberPicker snp = findElementById("my-scale-numberpicker-id")
+float value = snp.getValue();
+```
+
+3. Set value programmatically:
+```java
+ScaleNumberPicker snp = findElementById("my-scale-numberpicker-id")
+float value = snp.setValue(myFloatValue);
+```
+
 ## Attributes
 Attribute Name | Description | Default Value
 | --- | --- | --- |
