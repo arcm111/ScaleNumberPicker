@@ -74,6 +74,26 @@ float value = snp.getValue();
 ScaleNumberPicker snp = findElementById("my-scale-numberpicker-id")
 float value = snp.setValue(myFloatValue);
 ```
+### XML
+```xml
+<com.arcm.scalenumberpicker.ScaleNumberPicker
+    android:id="@+id/scaleNumberPicker"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="40dp"
+    app:snp_curve_height="72dp"
+    app:snp_division_line_height="14dp"
+    app:snp_division_text_margin="16dp"
+    app:snp_indicator_offset="4dp"
+    app:snp_indicator_triangle_width="10dp"
+    app:snp_subdivision_line_height="10dp"
+    app:snp_subdivisions_count_per_division="10"
+    app:snp_tick_value="1"
+    app:snp_ticks_count_per_subdivision="1"
+    app:snp_unit_label_text_size="16sp"
+    app:snp_value_text_margin="10dp"
+    app:snp_value_text_size="20sp" />
+```
 
 ## Attributes
 Attribute Name | Description | Default Value
@@ -111,3 +131,7 @@ snp_value | Scale's currently selected value | 50
 snp_value_text_colour | Colour of scale's selected value | 50 | #000000
 snp_value_text_margin | Margin between Scale's selected value and indicator | 50 | 8dp
 snp_value_text_size | Text size of the scale's selected value | 50 | 18sp
+
+
+## License
+The source code is licensed under the Apache 2.0 license.
