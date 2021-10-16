@@ -15,6 +15,14 @@ The library is a custom number-picker for Android.
   </br>
 </kbd>
 
+## Features
+* Supports integers and decimal values.
+* Supports units.
+* Supports negative values.
+* Has four different visual modes; horizontal, horizontal circular, vertical left and vertical right.
+* Highly customizable. Fonts, colours, hight and width of border, dividers and indicator, and curve height.
+* Supports using custom styles and themes.
+
 ## Labels
 List of labels of the different elements in the ScaleNumberPicker.
 <img src="imgs/labels.svg" />
