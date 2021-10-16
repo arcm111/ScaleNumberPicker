@@ -50,7 +50,7 @@ allprojects {
 2. Add the dependency:
 ```groovy
 dependencies {
-    implementation 'com.github.arcm111:ScaleNumberPicker:1.0.0'
+    implementation 'com.github.arcm111:ScaleNumberPicker:1.0.1'
 }
 ```
 ### Java
