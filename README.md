@@ -25,7 +25,15 @@ The library is a custom number-picker for Android.
 
 ## Labels
 List of labels of the different elements in the ScaleNumberPicker.
-<img src="imgs/labels.svg" />
+<p align="center">
+  <img src="imgs/labels.svg" width="720" />
+</p>
+
+## Sub-Divisions and Ticks
+* While Divisions are divided into Sub-divisions, Sub-divisions are also divided into smaller units called ticks.
+* The scale snaps to the nearest tick after swiping in either direction.
+* By default each division has 5 subdivisions and each subdivision has two ticks, these can be changed in the xml attributes however.
+* To change the distace between subdivisions, the property `snp_subdivision_width` need to be adjusted.
 
 ## Attributes
 Attribute Name | Description | Default Value
