@@ -36,10 +36,10 @@ List of labels of the different elements in the ScaleNumberPicker.
 * To change the distace between subdivisions, the property `snp_subdivision_width` need to be adjusted.
 
 ## Usage
-### Gradle
-1. Add it in your root build.gradle at the end of repositories:
+### Gradle 7
+1. Add maven repository to your list of repositories in `settings.gradle` found in the root of your project:
 ```groovy
-allprojects {
+dependencyResolutionManagement {
     repositories {
         ...
         maven { url 'https://jitpack.io' }
@@ -47,9 +47,10 @@ allprojects {
 }
 ```
 
-2. Add the dependency:
+2. Add the dependency to the app module's `build.gradle`:
 ```groovy
 dependencies {
+    ...
     implementation 'com.github.arcm111.ScaleNumberPicker:final:1.0.1'
 }
 ```
